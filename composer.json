@@ -1,0 +1,23 @@
+{
+    "name": "jcheverria/prototype",
+    "description": "Prototype Pattern",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jorge Cheverria",
+            "email": "jorgecheverria96@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"jcheverria\\Prototype\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"jcheverria\\Prototype\\Tests\\": "tests/"}
+    }
+}
